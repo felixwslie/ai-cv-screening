@@ -1,0 +1,23 @@
+# Secrets - NEVER upload these
+.env
+*.env
+.env.local
+
+# Python stuff we don't need
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files with potentially personal data
+test_cvs/
+sample_data/
